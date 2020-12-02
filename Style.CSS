@@ -1,0 +1,68 @@
+h1{
+    color: white;
+    text-align: center;
+}
+
+.Header{
+    background-image: url("https://media.istockphoto.com/photos/flat-lay-of-abstract-colored-paper-and-pastel-paper-background-picture-id1058018436?k=6&m=1058018436&s=170667a&w=0&h=DByluJZWfOfq0mMEB4RqtAC7Dy5TTfGGYfjnwgvN6CQ=");
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Grid img{
+    color: #cfcfcf;
+    background-color: #cfcfcf;
+    border-radius: 50px;
+}
+
+.Item{
+    
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.Footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-image: url("https://origami.me/wp-content/uploads/2016/10/origami-woodpecker.jpg");background-repeat:repeat;background-attachment: fixed;
+  }
+
+a:link{
+    color:white
+}
+
+a:visited{
+    color:black
+}
+
+body{
+    margin: 0px;
+}
+
+.Item:hover{
+    color: white;
+}
+
+.Item:hover img{
+    opacity: 0;
+}
+
+.Item:hover p{
+    color: black;
+    opacity: 1;
+    position: relative;
+    transform: scale(2);
+    bottom: 25%;
+    left: 85%;
+    font-weight: 100;
+}
